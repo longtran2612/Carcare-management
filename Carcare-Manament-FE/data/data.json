@@ -1,0 +1,133 @@
+{
+  "About": {
+    "Why": [
+      "Trung thực, uy tín, chất lượng",
+      "Kỹ thuật viên chuyên nghiệp, được đào tạo bài bản",
+      "Sản phẩm phục vụ mang thương hiệu toàn cầu",
+      "Đối tác chính thức thực hiện carcare cho nhiều thương hiệu ô tô"
+    ],
+    "Why2": [
+      "Quan tâm, chăm sóc đến tài sản của Quý khách Hàng như tài sản chính mình",
+      "Đã hoàn thành hơn 1000 lần bảo dưỡng",
+      "Chúng tôi luôn đặt sự hài lòng của khách hàng lên hàng đầu",
+      "Quy trình bảo dưỡng được thực hiện theo tiêu chuẩn của các hãng xe"
+    ]
+  },
+
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Đánh bóng & Hiệu chỉnh sơn",
+      "text": "Đánh bóng, hiệu chỉnh và phủ Sealant bảo vệ sơn xe (Paint Correction): xóa đi các lỗi trên bề mặt sơn như xước, các vết ăn mòn từ ố nước"
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Đánh bóng & Phủ Ceramic kính xe",
+      "text": "Kính xe sau thời gian dài sử dụng sẽ xuất hiện các vết ố nước ăn mòn gây mất thẩm mỹ, tầm nhìn sẽ bị hạn chế"
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Vệ sinh,Phủ ceramic cho ngoại thất xe",
+      "text": "Phủ ceramic (ceramic coating) là giải pháp bảo vệ bề mặt sơn xe hiệu quả với giá thành hợp lý, phù hợp cho những ai muốn duy trì vẻ đẹp của xe"
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Phủ gầm chống sét, giảm ồn",
+      "text": "Phủ gầm cao cấp (Rubberized Undercoating) là giải pháp sử dụng các dung dịch phủ gầm cao su non gốc nước và gốc dầu để tạo một lớp màng bảo vệ"
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Vệ sinh & Bảo dưỡng khoang máy",
+      "text": "Sử dụng công nghệ hơi nước nóng, nước áp lực và hóa chất Degreaser cao cấp hòa tan và làm sạch các vết bẩn cứng đầu bám trên các chi tiết bên trong"
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Vệ sinh & Bảo dưỡng nội thất",
+      "text": "Sử dụng công nghệ hơi nước nóng và cọ kết hợp hóa chất chuyên dụng vệ sinh toàn bộ các vị trí, chi tiết bên trong nội thất như taplo, vô lăng, cửa, khe"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Thông tin về dịch vụ",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Xem trạng thái chăm sóc xe",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Đặt lịch sửa chữa",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Xem lịch sử sử dụng dịch vụ",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}

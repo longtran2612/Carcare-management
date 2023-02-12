@@ -1,0 +1,15 @@
+.carslot {
+  padding: 5px;
+  &-content {
+    &--header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &-customer {
+    background-color: white;
+    padding:10px;
+    margin-right: 10px;
+  }
+}

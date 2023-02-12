@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      uri: 
+      auto-index-creation: true
+  messages:
+    basename: messages
+
+server:
+  port: 5000
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui
+    disable-swagger-default-url: true
+
+logging:
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} [CAR-SERVICE] %m%n%wEx"

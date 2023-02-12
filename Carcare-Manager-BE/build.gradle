@@ -1,0 +1,64 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.3'
+	id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+	id 'java'
+}
+
+group = 'iuh.nhom7'
+version = '1'
+sourceCompatibility = '1.8'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+tasks.jar {
+	enabled = false
+}
+
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
+	implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+	implementation 'org.apache.wink.example:CustomExceptionMapper:1.4'
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.11'
+	implementation('org.springframework.data:spring-data-mongodb')
+	implementation 'org.mongodb:mongodb-driver-sync:4.7.1'
+	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+	implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
+	implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.1.0'
+	implementation group: 'org.apache.commons', name: 'commons-io', version: '1.3.2'
+	implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+	implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+	implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.3'
+
+	//firebase
+	implementation group: 'com.google.firebase', name: 'firebase-admin', version: '8.1.0'
+	implementation group: 'com.google.cloud', name: 'google-cloud-storage', version: '2.14.0'
+	implementation group: 'com.google.api-client', name: 'google-api-client', version: '2.0.0'
+
+	//aws sdk
+	implementation platform('com.amazonaws:aws-java-sdk-bom:1.12.307')
+	implementation 'com.amazonaws:aws-java-sdk-s3'
+	testImplementation group: 'junit', name: 'junit', version: '4.11'
+
+	// Twilio SMS
+	implementation group: "com.twilio.sdk", name: "twilio", version: "9.1.1"
+
+}
+
+
